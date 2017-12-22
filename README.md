@@ -30,6 +30,14 @@ $featureEnabledChecker = new FeatureEnabledChecker(
 $isFeatureEnabledForUser = $featureEnabledChecker->isFeatureEnabled('my_cool_feature', 'my_user_id');
 ```
 
+## Installation
+
+Install via composer:
+```
+$ composer require emmetog/feature-flags
+```
+
 ## SemVer Sentry
 You'll find a report of the semantic version conformance of the past releases of this repo here:
 https://www.semver-sentry.com/report/emmetog/feature-flags
+
